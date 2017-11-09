@@ -24,7 +24,7 @@ public class OffersController {
 	
 	@Autowired
 	public void setOffersService(OffersService offersService) {
-		OffersService = offersService;
+		this.OffersService = offersService;
 	}
 
 

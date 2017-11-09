@@ -12,11 +12,6 @@ import com.softech.SpringMVC.Dao.OffersDAO;
 public class OffersService {
 	private OffersDAO offersDao;
 	
-	
-
-	
-	
-	
 	@Autowired
 	public void setOffersDao(OffersDAO offersDao) {
 		this.offersDao = offersDao;
